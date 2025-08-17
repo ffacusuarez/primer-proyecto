@@ -3,6 +3,7 @@
 import {use, useEffect, useState } from "react";
 import Title from "../componentes/Title";
 import Input from "../componentes/Input";
+import Button from "../componentes/Button";
 
 // This is a placeholder for the calculator functionality
 // You can implement your calculator logic here
@@ -28,7 +29,7 @@ export default function Calculadora() {
                 <section className="input-numeros">
                     <Input type="text" placeholder="ingrese un numero" onChange={saveNumber}></Input>
                     <Input type="text" placeholder="ingrese un numero" onChange={saveNumber}></Input>
-                    
+                    <Button onClick={hola}></Button>
                 </section>
             </main>
             
